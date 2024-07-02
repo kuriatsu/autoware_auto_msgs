@@ -64,6 +64,8 @@ float32 front_wheel_angle_rad 0.0
 float32 rear_wheel_angle_rad 0.0
 ```
 
+> `acceleration_mps2` increases/decreases based on absolute vehicle motion and does not consider vehicle direction (forward/backward)
+
 And the heading field has the following form:
 
 A zero heading corresponds to the positive x direction in the given coordinate frame.

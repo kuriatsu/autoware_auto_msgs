@@ -17,7 +17,8 @@ module autoware_auto_planning_msgs {
       float lateral_velocity_mps;
 
       @default (value=0.0)
-      float acceleration_mps2;
+      // acceleration_mps2 increases/decreases based on absolute vehicle motion and does not consider vehicle direction (forward/backward)
+      float acceleration_mps2; 
 
       @default (value=0.0)
       float heading_rate_rps;
