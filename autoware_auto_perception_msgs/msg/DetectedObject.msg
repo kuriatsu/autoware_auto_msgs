@@ -1,0 +1,5 @@
+float32 existence_probability
+
+autoware_auto_perception_msgs/ObjectClassification[] classification
+autoware_auto_perception_msgs/DetectedObjectKinematics kinematics
+autoware_auto_perception_msgs/Shape shape

@@ -1,0 +1,2 @@
+autoware_auto_mapping_msgs/MapPrimitive[] primitives
+int64 preferred_primitive_id

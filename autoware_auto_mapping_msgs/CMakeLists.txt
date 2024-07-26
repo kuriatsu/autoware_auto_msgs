@@ -9,10 +9,10 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/HADMapBin.idl"
-  "msg/HADMapSegment.idl"
-  "msg/MapPrimitive.idl"
-  "srv/HADMapService.idl"
+  "msg/HADMapBin.msg"
+  "msg/HADMapSegment.msg"
+  "msg/MapPrimitive.msg"
+  "srv/HADMapService.srv"
   DEPENDENCIES
     "std_msgs"
   ADD_LINTER_TESTS

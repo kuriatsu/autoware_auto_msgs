@@ -1,0 +1,3 @@
+autoware_auto_planning_msgs/Trajectory original_trajectory
+---
+autoware_auto_planning_msgs/Trajectory modified_trajectory

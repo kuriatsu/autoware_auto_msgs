@@ -1,0 +1,5 @@
+unique_identifier_msgs/UUID object_id
+float32 existence_probability
+autoware_auto_perception_msgs/ObjectClassification[] classification
+autoware_auto_perception_msgs/TrackedObjectKinematics kinematics
+autoware_auto_perception_msgs/Shape shape

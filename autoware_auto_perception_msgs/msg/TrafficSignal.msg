@@ -1,0 +1,2 @@
+int32 map_primitive_id
+autoware_auto_perception_msgs/TrafficLight[10] lights

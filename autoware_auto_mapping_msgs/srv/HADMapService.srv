@@ -1,0 +1,12 @@
+uint8 FULL_MAP = 0
+uint8 ALL_PRIMITIVES = 1
+uint8 DRIVEABLE_GEOMETRY = 2
+uint8 REGULATORY_ELEMENTS = 3
+uint8 STATIC_OBJECTS = 4
+
+uint8[] requested_primitives
+float64[3] geom_upper_bound
+float64[3] geom_lower_bound
+---
+autoware_auto_mapping_msgs/HADMapBin map
+int32 answer

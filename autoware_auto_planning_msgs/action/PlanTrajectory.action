@@ -1,0 +1,10 @@
+uint8 SUCCESS = 0
+uint8 FAIL = 1
+autoware_auto_planning_msgs/HADMapRoute sub_route
+
+---
+uint8 result
+autoware_auto_planning_msgs/Trajectory trajectory
+
+---
+uint8 unused_variable

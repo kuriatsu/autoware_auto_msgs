@@ -1,0 +1,5 @@
+string replay_path
+---
+bool unused_flag
+---
+int32 remaining_length

@@ -1,0 +1,2 @@
+autoware_auto_perception_msgs/ObjectClassification[] classifications
+geometry_msgs/Polygon polygon
