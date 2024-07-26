@@ -29,18 +29,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrackedObjectKinematics.msg"
   "msg/TrackedObjects.msg"
   "msg/TrafficLight.msg"
-  "msg/TrafficLightRoi.msg"
-  "msg/TrafficLightRoiArray.msg"
+  # "msg/TrafficLightRoi.msg"
+  # "msg/TrafficLightRoiArray.msg"
   "msg/TrafficSignal.msg"
   "msg/TrafficSignalArray.msg"
   "msg/TrafficSignalStamped.msg"
   "msg/TrafficSignalWithJudge.msg"
   DEPENDENCIES
-#    "autoware_auto_geometry_msgs"
-#    "geometry_msgs"
-#    "sensor_msgs"
-#    "std_msgs"
-#    "unique_identifier_msgs"
+  "autoware_auto_geometry_msgs"
+  "geometry_msgs"
+  "sensor_msgs"
+  "std_msgs"
+  "unique_identifier_msgs"
   ADD_LINTER_TESTS
 )
 
