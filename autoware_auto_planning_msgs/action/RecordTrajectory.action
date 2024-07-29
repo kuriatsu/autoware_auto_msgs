@@ -1,5 +1,0 @@
-string record_path
----
-bool unused_flag
----
-int32 current_length
