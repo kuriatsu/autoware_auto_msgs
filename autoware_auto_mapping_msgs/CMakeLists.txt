@@ -12,7 +12,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HADMapBin.msg"
   "msg/HADMapSegment.msg"
   "msg/MapPrimitive.msg"
-  "srv/HADMapService.srv"
+  # "srv/HADMapService.srv"
   DEPENDENCIES
     "std_msgs"
   ADD_LINTER_TESTS
