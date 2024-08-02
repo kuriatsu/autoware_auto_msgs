@@ -9,10 +9,10 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/PlannerCostmap.action"
-  "action/PlanTrajectory.action"
-  "action/RecordTrajectory.action"
-  "action/ReplayTrajectory.action"
+  # "action/PlannerCostmap.action"
+  # "action/PlanTrajectory.action"
+  # "action/RecordTrajectory.action"
+  # "action/ReplayTrajectory.action"
   "msg/HADMapRoute.msg"
   "msg/OrderMovement.msg"
   "msg/Route.msg"
@@ -22,7 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PathPoint.msg"
   "msg/PathWithLaneId.msg"
   "msg/PathPointWithLaneId.msg"
-  "srv/ModifyTrajectory.srv"
+  # "srv/ModifyTrajectory.srv"
   DEPENDENCIES
     "autoware_auto_geometry_msgs"
     "autoware_auto_mapping_msgs"
