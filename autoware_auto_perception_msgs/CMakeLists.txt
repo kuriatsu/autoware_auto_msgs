@@ -38,7 +38,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PredictedObjectUE.msg"
   DEPENDENCIES
   "autoware_auto_geometry_msgs"
-  "autoware_auto_perception_msgs"
   "geometry_msgs"
   "sensor_msgs"
   "std_msgs"
