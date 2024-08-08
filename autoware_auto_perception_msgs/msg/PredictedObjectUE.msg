@@ -1,0 +1,9 @@
+std_msgs/Header header
+unique_identifier_msgs/UUID object_id
+float64 existence_probability
+geometry_msgs/Pose pose
+geometry_msgs/Pose[] path
+float64[] prediction_confidence
+geometry_msgs/Vector3 dimensions
+autoware_auto_perception_msgs/ObjectClassification classification
+float64 classification_confidence
