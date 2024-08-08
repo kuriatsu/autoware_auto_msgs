@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointClusters.idl"
   "msg/PointXYZIF.idl"
   "msg/PredictedObject.idl"
+  "msg/PredictedObjectUE.idl"
   "msg/PredictedObjectKinematics.idl"
   "msg/PredictedObjects.idl"
   "msg/PredictedPath.idl"
