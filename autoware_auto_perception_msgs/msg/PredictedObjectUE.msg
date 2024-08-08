@@ -11,8 +11,8 @@ std_msgs/Header header
 unique_identifier_msgs/UUID object_id
 float64 existence_probability
 geometry_msgs/Pose pose
-geometry_msgs/Pose[] path
-float64[] prediction_confidence
-geometry_msgs/Vector3 dimensions
-uint8 classification
-float64 classification_confidence
+geometry_msgs/Pose[] pathes
+float64[] path_confidences
+geometry_msgs/Vector3 dimension
+uint8[] classifications
+float64[] classification_confidences
