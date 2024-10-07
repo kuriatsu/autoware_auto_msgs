@@ -18,7 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Route.msg"
   "msg/Trajectory.msg"
   "msg/TrajectoryPoint.msg"
-  "msg/Path.msg"
+  # "msg/Path.msg"
   "msg/PathPoint.msg"
   "msg/PathWithLaneId.msg"
   "msg/PathPointWithLaneId.msg"
